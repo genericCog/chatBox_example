@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<!-- Bootstrap-css, Bootstrap-js, jQuery required for chat -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+		<!-- Required styles for chat -->
+		<link rel="stylesheet" href="style.css" />	
+		<!-- Required functions for chat -->	
+		<script src="script.js"></script>
+	</head>
+
+	<body>
+    <!-- CHAT TEST 2 -->
+    <div class="chat_window">
+      <div class="top_menu">
+        <div class="buttons">
+          <div class="button close"><i class="fa fa-html5"></i></div>
+          <div class="button close"><i class="fa fa-css3"></i></div>
+          <div class="button close"><i class="fa fa-heartbeat"></i></div>
+        </div>
+        <div class="title">Chat</div>
+      </div>
+      <!-- end top_menu -->
+      <ul class="messages"></ul>
+      <div class="bottom_wrapper clearfix">
+        <div class="message_input_wrapper">
+          <input class="message_input" placeholder="Type your message here..." />
+        </div>
+        <div class="send_message">
+          <div class="icon"></div>
+          <div class="text">Send</div>
+        </div>
+      </div>
+    </div>
+    <!-- end chat_window -->
+    <div class="message_template">
+      <li class="message">
+        <div class="avatar icon-center">
+          <span class="fa fa-user"></span>
+        </div>
+        <div class="text_wrapper">
+          <div class="text"></div>
+        </div>
+      </li>
+    </div>
+    <!-- END CHAT TEST 2 -->
+  </body>
+
+</html>
